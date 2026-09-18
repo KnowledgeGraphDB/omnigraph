@@ -4,8 +4,6 @@
 *.nano
 *.nanograph
 .DS_Store
-.env
-.env.*
 *.tfstate
 *.tfstate.*
 .terraform/
@@ -31,3 +29,5 @@ demo/*.omni/
 mdrip/
 crates/omnigraph/benches/results.jsonl
 .bench/
+config.bat
+node_modules

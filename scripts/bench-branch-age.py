@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Small, sequential graph-age diagnostics using the existing scenario harness."""
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import datetime
 import hashlib
